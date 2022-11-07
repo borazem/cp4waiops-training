@@ -15,11 +15,11 @@ Write them down for both channels Under Apps click Browse Apps
 Select the App you just have created
 Invite the Application to each of the two channels by typing</description></item><item><title>Integrate</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-slack/4_slack_integrate/</link><pubDate>Thu, 03 Nov 2022 10:57:46 +0100</pubDate><guid>https://niklaushirt.github.io/cp4waiops-training/configure-slack/4_slack_integrate/</guid><description>Integrate Your Slack App In the Slack App: In the Basic Information menu get the Signing Secret (not the Client Secret!) and jot it down
 In the OAuth &amp;amp; Permissions get the Bot User OAuth Token (not the User OAuth Token!) and jot it down
-In AI Manager: Go to Data and tool connections
+In AIManager: Go to Data and tool connections
 Under Slack select Add integration
 Name it &amp;ldquo;Slack&amp;rdquo;
 Paste the Signing Secret from above
-Paste the Bot User OAuth Token from above</description></item><item><title>Get the Integration URL</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-slack/5_slack_url_public/</link><pubDate>Thu, 03 Nov 2022 10:57:46 +0100</pubDate><guid>https://niklaushirt.github.io/cp4waiops-training/configure-slack/5_slack_url_public/</guid><description>Get the Integration URL (Public Cloud (ROKS, &amp;hellip;)) Create the Integration URL In AI Manager: Go to Data and tool connections
+Paste the Bot User OAuth Token from above</description></item><item><title>Get the Integration URL</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-slack/5_slack_url_public/</link><pubDate>Thu, 03 Nov 2022 10:57:46 +0100</pubDate><guid>https://niklaushirt.github.io/cp4waiops-training/configure-slack/5_slack_url_public/</guid><description>Get the Integration URL (Public Cloud (ROKS, &amp;hellip;)) Create the Integration URL In AIManager: Go to Data and tool connections
 Under Slack click on 1 integration
 Copy out the URL
 This is the URL you will be using for step 6.</description></item><item><title>Configure</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-slack/6_slack_app_integration/</link><pubDate>Thu, 03 Nov 2022 10:57:46 +0100</pubDate><guid>https://niklaushirt.github.io/cp4waiops-training/configure-slack/6_slack_app_integration/</guid><description>Create Slack App Communications Return to the browser tab for the Slack app.
