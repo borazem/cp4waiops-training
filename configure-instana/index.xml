@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configure Instana (optional) on IBM CloudPak for Watson AIOps Training - Installation and Configuration</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-instana/</link><description>Recent content in Configure Instana (optional) on IBM CloudPak for Watson AIOps Training - Installation and Configuration</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 03 Nov 2022 10:57:46 +0100</lastBuildDate><atom:link href="https://niklaushirt.github.io/cp4waiops-training/configure-instana/index.xml" rel="self" type="application/rss+xml"/><item><title>Instana Setup</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-instana/configure_instana_01/</link><pubDate>Thu, 03 Nov 2022 10:57:46 +0100</pubDate><guid>https://niklaushirt.github.io/cp4waiops-training/configure-instana/configure_instana_01/</guid><description>Initial Instana Setup Step: Create your Instana API Token Open Instana from the DemoUI and login with:
+User: admin@instana.local Password: P4ssw0rd! Select Settings
+Select API Tokens
+Click on Add API Token
+Give your API Token a unique name
+You may add team members to your new Slack workspace or skip this step.
+Click on the Eye Icon twice to copy the token. SAVE IT somewhere save, we&amp;rsquo;ll need it in the next step.</description></item><item><title>Create Application</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-instana/configure_instana_02/</link><pubDate>Thu, 03 Nov 2022 10:57:46 +0100</pubDate><guid>https://niklaushirt.github.io/cp4waiops-training/configure-instana/configure_instana_02/</guid><description>Create RobotShop Application in Instana Task: Create RobotShop Application Documentation https://www.ibm.com/docs/en/instana-observability/current?topic=capabilities-application-perspectives In this section you will create an Application Perspective for RobotShop instance using the following parameters:
+Kind: Kubernetes or Container Filter: Kubernetes.Namespace = robot-shop Solution Create the connection On Instana homepage click New Applciation Perspective
+Select Kubernetes or Container
+Click Next
+Click on + Add Filter
+Type namespace in the search field
+Select robot-shop
+Click Next
+Name your Application Perspective RobotShop</description></item><item><title>Instana Integration</title><link>https://niklaushirt.github.io/cp4waiops-training/configure-instana/configure_instana_03/</link><pubDate>Thu, 03 Nov 2022 10:57:46 +0100</pubDate><guid>https://niklaushirt.github.io/cp4waiops-training/configure-instana/configure_instana_03/</guid><description>Integrate Instana with AIManager Task: Integrate Instana with AIManager Documentation https://www.ibm.com/docs/en/cloud-paks/cloud-pak-watson-aiops/3.5.1?topic=connections-instana In this section you will connect AIManager to the existing Instana instance using the following parameters:
+Endpoint: Your Instana URL (probably something like https://dev-aiops.&amp;lt;xyz&amp;gt;.eu-gb.containers.appdomain.cloud/) API Token: The API Token from the previous step Solution Create the connection In the AIManager “Hamburger” Menu select Define/Data and tool connections
+Click Add connection
+Under Instana, click on Add connection
+Click Connect</description></item></channel></rss>
